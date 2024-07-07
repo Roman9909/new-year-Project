@@ -1,0 +1,55 @@
+/* Font Familly */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Merriweather", serif;
+}
+
+/* Head section banner Style  */
+
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin:0 auto;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("asset/images/Banner\ Image.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: oberlay;
+    
+
+}
+
+/* banner text design  */
+.banner-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+.banner-container-text p,h1{
+    color: aliceblue;
+}
+.banner-container-text p{
+font-size: 32px;
+font-weight: 400px;
+
+}
+.banner-container-text h1{
+font-size: 72px;
+font-weight: 900;
+
+}
+
+
